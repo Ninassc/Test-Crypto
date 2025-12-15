@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: gray;
+}
+
+header {
+  padding-top: 5px;
+  color: white;
+}
+
+.cards {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 5px;
+}
+
+.card {
+  background-color: rgb(41, 38, 38);
+  height: 20vh;
+  color: whitesmoke;
+  padding-left: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  position: relative;
+}
+
+.card .nameImage {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.card .nameImage h3 {
+  text-align: left;
+}
+
+.infos {
+  display: flex;
+  gap: 30px;
+}
+
+.price {
+  text-align: left;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.sparkline {
+  position: absolute;
+  right: 20px;
+  top: 40%;
+}
